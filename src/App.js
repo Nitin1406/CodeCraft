@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './componnets/Navbar';
+import Footer from './componnets/Footer';
+import Editor from './componnets/Editor';
 
 function App() {
   return (
-    <div className="App text-center text-5xl">
-      Jai Shree Ram
+    <div className="">
+      <Navbar/>
+      <Editor/>
+      <Footer/>
     </div>
   );
 }
