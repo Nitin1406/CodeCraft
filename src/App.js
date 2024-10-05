@@ -7,9 +7,9 @@ import Editor from './componnets/Editor';
 function App() {
   return (
     <div className="">
-      <Navbar/>
+      
       <Editor/>
-      <Footer/>
+      
     </div>
   );
 }
