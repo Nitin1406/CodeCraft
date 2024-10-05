@@ -1,17 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './componnets/Navbar';
-import Footer from './componnets/Footer';
-import Editor from './componnets/Editor';
 
-function App() {
+import React, { useState } from "react";
+import Footer from "./componnets/Footer";
+import Editor from "./componnets/Editor"; // Import your Editor component
+
+const App = () => {
+  const [activeLayout, setActiveLayout] = useState(1); // Default layout
+
+  const handleLayoutChange = (layoutId) => {
+    setActiveLayout(layoutId); // Update active layout
+  };
+
   return (
-    <div className="">
-      
-      <Editor/>
-      
+    <div className="App">
+      <Editor activeLayout={activeLayout} />
+      {/* <Footer onLayoutChange={handleLayoutChange} /> */}
     </div>
   );
-}
+};
 
 export default App;
+
