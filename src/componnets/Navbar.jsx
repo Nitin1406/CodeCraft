@@ -8,9 +8,11 @@ const Navbar = () => {
           <li className="mr-auto">
             <a
               href="/app"
-              className="mt-1 text-base font-bold transition-transform hover:scale-110"
+              className="mt-1 text-base font-bold transition-transform hover:scale-110 flex gap-4"
             >
-              <img src="https://www.lupleg.org/lupleg.svg" alt="" width="150px"/>
+
+              <h1 className="text-white text-2xl">CodeCraft</h1>
+              <img src="./code.png" alt="" width="40px"/>
             </a>
           </li>
           <li>

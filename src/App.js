@@ -1,19 +1,13 @@
 
 import React, { useState } from "react";
-import Footer from "./componnets/Footer";
-import Editor from "./componnets/Editor"; // Import your Editor component
+import Editor from "./componnets/Editor"; 
+
 
 const App = () => {
-  const [activeLayout, setActiveLayout] = useState(1); // Default layout
-
-  const handleLayoutChange = (layoutId) => {
-    setActiveLayout(layoutId); // Update active layout
-  };
-
+  const [activeLayout, setActiveLayout] = useState(1);
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Editor activeLayout={activeLayout} />
-      {/* <Footer onLayoutChange={handleLayoutChange} /> */}
     </div>
   );
 };

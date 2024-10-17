@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const Footer = ({ onLayoutChange }) => {
-  const [activeButton, setActiveButton] = useState(1); // Set default active button to 1
+  const [activeButton, setActiveButton] = useState(1); 
 
-  // Function to handle button click and set active button
+  
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
-    onLayoutChange(buttonId); // Call the parent's function to change layout
+    onLayoutChange(buttonId); 
   };
 
   return (

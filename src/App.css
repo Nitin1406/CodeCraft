@@ -1,0 +1,30 @@
+/* Editor and Output Styles */
+.editor-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+  }
+  
+  .editor-pane {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .resize-bar-y {
+    height: 5px;
+    background-color: #444;
+    cursor: row-resize;
+    user-select: none;
+  }
+  
+  .resize-bar-x {
+    width: 5px;
+    background-color: #444;
+    cursor: col-resize;
+    user-select: none;
+  }
+  
+  .output-section {
+    background-color: #282c34;
+  }
+  
