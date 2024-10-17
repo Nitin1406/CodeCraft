@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeCraft/static/css/main.5f9b704a.css",
+    "main.js": "/CodeCraft/static/js/main.a204cd32.js",
+    "static/js/453.dfca69a2.chunk.js": "/CodeCraft/static/js/453.dfca69a2.chunk.js",
+    "index.html": "/CodeCraft/index.html",
+    "main.5f9b704a.css.map": "/CodeCraft/static/css/main.5f9b704a.css.map",
+    "main.a204cd32.js.map": "/CodeCraft/static/js/main.a204cd32.js.map",
+    "453.dfca69a2.chunk.js.map": "/CodeCraft/static/js/453.dfca69a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f9b704a.css",
+    "static/js/main.a204cd32.js"
+  ]
+}
